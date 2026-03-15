@@ -1,0 +1,1057 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maitree Foods — Premium Vegetarian Catering in Pune</title>
+    <meta
+      name="description"
+      content="Maitree Foods offers premium 100% pure vegetarian catering services in Pune for weddings, corporate events, social gatherings, and religious functions. Based in Tingrenagar, Pune."
+    />
+    <meta
+      name="keywords"
+      content="vegetarian catering Pune, wedding catering Pune, Maitree Foods, Tingrenagar catering, pure veg catering Maharashtra"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Jost:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      /* ============================================================
+       CUSTOMIZE PROMO SECTION — Index Page
+       ============================================================ */
+      .customize-promo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: stretch;
+        overflow: hidden;
+        background: var(--cream, #f8f5f0);
+      }
+
+      .customize-promo__image-wrap {
+        position: relative;
+        min-height: 580px;
+        overflow: hidden;
+      }
+
+      .customize-promo__image-wrap img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        transition: transform 0.7s ease;
+      }
+
+      .customize-promo__image-wrap:hover img {
+        transform: scale(1.05);
+      }
+
+      .customize-promo__image-wrap::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(
+          160deg,
+          rgba(107, 26, 26, 0.22) 0%,
+          transparent 55%
+        );
+        pointer-events: none;
+      }
+
+      .customize-promo__badge {
+        position: absolute;
+        bottom: 2.8rem;
+        left: 2.8rem;
+        background: #6b1a1a;
+        padding: 1.1rem 1.6rem;
+        z-index: 2;
+        text-align: center;
+        box-shadow: 0 10px 35px rgba(107, 26, 26, 0.45);
+      }
+
+      .customize-promo__badge strong {
+        display: block;
+        font-family: "Cormorant Garamond", serif;
+        font-size: 2.6rem;
+        font-weight: 600;
+        line-height: 1;
+        color: #c69c6d;
+      }
+
+      .customize-promo__badge span {
+        display: block;
+        font-size: 0.68rem;
+        font-weight: 500;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: rgba(255, 255, 255, 0.72);
+        margin-top: 0.35rem;
+        line-height: 1.5;
+      }
+
+      .customize-promo__content {
+        padding: 5.5rem 6%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .customize-reasons {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.6rem 2rem;
+        margin: 2.2rem 0 2.8rem;
+      }
+
+      .customize-reason {
+        display: flex;
+        gap: 0.9rem;
+        align-items: flex-start;
+      }
+
+      .customize-reason__icon {
+        width: 40px;
+        height: 40px;
+        background: rgba(107, 26, 26, 0.07);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        color: #6b1a1a;
+        padding: 9px;
+      }
+
+      .customize-reason__icon svg {
+        width: 100%;
+        height: 100%;
+      }
+
+      .customize-reason h4 {
+        font-size: 0.88rem;
+        font-weight: 600;
+        color: #1e1e1e;
+        margin-bottom: 0.3rem;
+        letter-spacing: 0.02em;
+      }
+
+      .customize-reason p {
+        font-size: 0.8rem;
+        color: #5a5a5a;
+        line-height: 1.65;
+      }
+
+      .customize-promo__cta {
+        align-self: flex-start;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.65rem;
+        padding: 1rem 2rem;
+        font-size: 0.82rem;
+        text-decoration: none;
+        transition: gap 0.2s;
+      }
+
+      .customize-promo__cta:hover {
+        gap: 0.9rem;
+      }
+
+      @media (max-width: 960px) {
+        .customize-promo {
+          grid-template-columns: 1fr;
+        }
+        .customize-promo__image-wrap {
+          min-height: 340px;
+        }
+        .customize-promo__content {
+          padding: 3.5rem 8%;
+        }
+      }
+
+      @media (max-width: 600px) {
+        .customize-promo__content {
+          padding: 3rem 5%;
+        }
+        .customize-reasons {
+          grid-template-columns: 1fr;
+          gap: 1.2rem;
+        }
+        .customize-promo__badge {
+          bottom: 1.5rem;
+          left: 1.5rem;
+        }
+        .customize-promo__cta {
+          width: 100%;
+          justify-content: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- ======================================================
+       HEADER
+  ====================================================== -->
+    <header class="site-header" id="siteHeader">
+      <a href="index.html" class="logo">
+        <img
+          src="Maitree foods logo2.png"
+          alt="Maitree Foods Logo"
+          class="logo__icon"
+        />
+        <div class="logo__text">
+          <div class="logo__name">
+            <span class="logo-maitri">Maitree</span>
+            <span class="logo-foods">Foods</span>
+          </div>
+          <div class="logo__sub">Pure Vegetarian Catering</div>
+        </div>
+      </a>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="index.html" class="main-nav__link active">Home</a>
+        <a href="about.html" class="main-nav__link">About</a>
+        <a href="menu.html" class="main-nav__link">Menu</a>
+        <a href="customize-menu.html" class="main-nav__link">Customize Menu</a>
+        <a href="contact.html" class="main-nav__link">Contact</a>
+        <a href="tel:9922925739" class="main-nav__link main-nav__cta"
+          >Call Now</a
+        >
+      </nav>
+
+      <button
+        class="hamburger"
+        id="hamburger"
+        aria-label="Toggle menu"
+        aria-expanded="false"
+      >
+        <span></span><span></span><span></span>
+      </button>
+    </header>
+
+    <nav class="mobile-menu" id="mobileMenu" aria-label="Mobile navigation">
+      <a href="index.html" class="mobile-menu__link">Home</a>
+      <a href="about.html" class="mobile-menu__link">About</a>
+      <a href="menu.html" class="mobile-menu__link">Menu</a>
+      <a href="customize-menu.html" class="mobile-menu__link">Customize Menu</a>
+      <a href="contact.html" class="mobile-menu__link">Contact</a>
+      <a href="tel:9922925739" class="mobile-menu__link">Call: 9922925739</a>
+    </nav>
+
+    <!-- ======================================================
+       HERO
+  ====================================================== -->
+    <section class="hero" aria-label="Hero">
+      <div class="hero__bg">
+        <div class="hero__slide active"></div>
+        <div class="hero__slide"></div>
+        <div class="hero__slide"></div>
+      </div>
+
+      <div class="hero__content">
+        <div class="hero__label">Tingrenagar, Pune</div>
+        <h1 class="hero__title">
+          Premium <em>Vegetarian</em><br />Catering Services<br />in Pune
+        </h1>
+        <p class="hero__desc">
+          From intimate family gatherings to grand wedding celebrations —
+          Maitree Foods delivers an authentic culinary experience crafted with
+          fresh ingredients, expert chefs, and unwavering attention to detail.
+        </p>
+        <div class="hero__buttons">
+          <a href="tel:9922925739" class="btn btn--primary">
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              aria-hidden="true"
+            >
+              <path
+                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 11.5a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.62 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.5a16 16 0 0 0 6 6l.96-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.5 16z"
+              />
+            </svg>
+            Call Now
+          </a>
+          <a href="menu.html" class="btn btn--outline-light">
+            View Full Menu
+            <svg
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              aria-hidden="true"
+            >
+              <polyline points="9,18 15,12 9,6" />
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="hero__badge" aria-hidden="true">
+        <div class="hero__badge-num">100%</div>
+        <div class="hero__badge-text">Pure<br />Vegetarian</div>
+      </div>
+    </section>
+
+    <!-- ======================================================
+       ABOUT
+  ====================================================== -->
+    <section class="about section" aria-labelledby="about-heading">
+      <div class="about__image-wrap">
+        <img
+          src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=800&q=80"
+          alt="A lavish Maitree Foods catering spread"
+        />
+        <div class="about__image-tag">
+          <strong>5+</strong>
+          <span>Years of Excellence</span>
+        </div>
+      </div>
+
+      <div class="about__text">
+        <div class="section-label">Our Story</div>
+        <h2 class="section-title" id="about-heading">
+          Serving Pune with<br />Culinary Excellence
+        </h2>
+        <p class="section-subtitle">
+          Based in Tingrenagar, Pune, Maitree Foods was founded on a simple
+          belief — every celebration deserves food that brings people together.
+          We specialize in 100% pure vegetarian catering, delivering the rich
+          flavors of Maharashtra and beyond to your most cherished events.
+        </p>
+
+        <div class="about__points">
+          <div class="about__point">
+            <div class="about__point-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                aria-hidden="true"
+              >
+                <circle cx="12" cy="12" r="10" />
+                <path d="M12 6v6l4 2" />
+              </svg>
+            </div>
+            <div>
+              <h4>Fresh Every Day</h4>
+              <p>
+                Ingredients sourced fresh daily from trusted local suppliers.
+              </p>
+            </div>
+          </div>
+          <div class="about__point">
+            <div class="about__point-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                aria-hidden="true"
+              >
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                <circle cx="9" cy="7" r="4" />
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+              </svg>
+            </div>
+            <div>
+              <h4>Expert Chefs</h4>
+              <p>
+                Seasoned culinary professionals with deep roots in Indian
+                cuisine.
+              </p>
+            </div>
+          </div>
+          <div class="about__point">
+            <div class="about__point-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                aria-hidden="true"
+              >
+                <rect x="2" y="3" width="20" height="14" rx="2" />
+                <line x1="8" y1="21" x2="16" y2="21" />
+                <line x1="12" y1="17" x2="12" y2="21" />
+              </svg>
+            </div>
+            <div>
+              <h4>Full Event Setup</h4>
+              <p>End-to-end management including service staff and decor.</p>
+            </div>
+          </div>
+          <div class="about__point">
+            <div class="about__point-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                aria-hidden="true"
+              >
+                <path
+                  d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"
+                />
+                <path
+                  d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"
+                />
+              </svg>
+            </div>
+            <div>
+              <h4>Customizable Menus</h4>
+              <p>
+                Tailored menus crafted to match your preferences and tradition.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================
+       SERVICES
+  ====================================================== -->
+    <section class="services section" aria-labelledby="services-heading">
+      <div class="services__header">
+        <div class="section-label">What We Offer</div>
+        <h2 class="section-title" id="services-heading">
+          Catering for Every Occasion
+        </h2>
+        <p class="section-subtitle">
+          No event is too large or too intimate. We bring the same dedication
+          and culinary mastery to every function we cater.
+        </p>
+      </div>
+
+      <div class="services__grid">
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              aria-hidden="true"
+            >
+              <path
+                d="M4.5 6.375a4.125 4.125 0 1 1 8.25 0 4.125 4.125 0 0 1-8.25 0zM14.25 8.625a3.375 3.375 0 1 1 6.75 0 3.375 3.375 0 0 1-6.75 0zM1.5 19.125a7.125 7.125 0 0 1 14.25 0v.003l-.001.119a.75.75 0 0 1-.363.63 13.067 13.067 0 0 1-6.761 1.873c-2.472 0-4.786-.684-6.76-1.873a.75.75 0 0 1-.364-.63l-.001-.122zM17.25 19.128l-.001.144a2.25 2.25 0 0 1-.233.96 10.088 10.088 0 0 0 5.06-1.01.75.75 0 0 0 .42-.643 4.875 4.875 0 0 0-6.957-4.611 8.586 8.586 0 0 1 1.71 5.157v.003z"
+              />
+            </svg>
+          </div>
+          <h3>Wedding Catering</h3>
+          <p>Grand spreads for your most memorable day</p>
+        </div>
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              aria-hidden="true"
+            >
+              <rect x="2" y="7" width="20" height="14" rx="2" />
+              <path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
+              <line x1="12" y1="12" x2="12" y2="16" />
+              <line x1="10" y1="14" x2="14" y2="14" />
+            </svg>
+          </div>
+          <h3>Corporate Events</h3>
+          <p>Professional service for business gatherings</p>
+        </div>
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              aria-hidden="true"
+            >
+              <path
+                d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+              />
+            </svg>
+          </div>
+          <h3>Engagements</h3>
+          <p>Elegant spreads for receptions and ceremonies</p>
+        </div>
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              aria-hidden="true"
+            >
+              <circle cx="12" cy="12" r="10" />
+              <path d="M12 6v6l4 2" />
+            </svg>
+          </div>
+          <h3>Religious Functions</h3>
+          <p>Sattvic cuisine for sacred occasions and pujas</p>
+        </div>
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              aria-hidden="true"
+            >
+              <path
+                d="M3 12l9-9 9 9M5 10v9a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-9"
+              />
+              <path d="M9 21V12h6v9" />
+            </svg>
+          </div>
+          <h3>Social Gatherings</h3>
+          <p>Birthday parties, anniversaries, and family events</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================
+       CUSTOMIZE YOUR MENU — PROMO SECTION
+  ====================================================== -->
+    <section class="customize-promo" aria-labelledby="customize-heading">
+      <div class="customize-promo__image-wrap">
+        <img
+          src="https://images.unsplash.com/photo-1555244162-803834f70033?w=900&q=80"
+          alt="A beautiful spread of customized vegetarian dishes at a Pune catering event"
+          loading="lazy"
+        />
+        <div class="customize-promo__badge">
+          <strong>150+</strong>
+          <span>Dishes to<br />Choose From</span>
+        </div>
+      </div>
+
+      <div class="customize-promo__content">
+        <div class="section-label">Your Menu, Your Way</div>
+        <h2 class="section-title" id="customize-heading">
+          Customize Your<br />Catering Menu
+        </h2>
+        <p class="section-subtitle">
+          Every celebration is unique — so why settle for a fixed menu? With
+          Maitree Foods, you have complete freedom to handpick every dish for
+          your event. Choose from over 150 authentic vegetarian dishes across 15
+          categories and get a personalized quote directly on WhatsApp.
+        </p>
+
+        <div class="customize-reasons">
+          <div class="customize-reason">
+            <div class="customize-reason__icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+                aria-hidden="true"
+              >
+                <path
+                  d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"
+                />
+                <path
+                  d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"
+                />
+              </svg>
+            </div>
+            <div>
+              <h4>Pick Every Dish</h4>
+              <p>
+                Select exactly what you want — from paneer starters to sweets
+                and everything in between.
+              </p>
+            </div>
+          </div>
+
+          <div class="customize-reason">
+            <div class="customize-reason__icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+                aria-hidden="true"
+              >
+                <rect x="2" y="2" width="20" height="20" rx="2" />
+                <path d="M8 10h8M8 14h5" />
+              </svg>
+            </div>
+            <div>
+              <h4>Instant WhatsApp Quote</h4>
+              <p>
+                Your selection is sent directly to Sachin Sonawane on WhatsApp —
+                no waiting, no hassle.
+              </p>
+            </div>
+          </div>
+
+          <div class="customize-reason">
+            <div class="customize-reason__icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+                aria-hidden="true"
+              >
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+              </svg>
+            </div>
+            <div>
+              <h4>100% Pure Vegetarian</h4>
+              <p>
+                Every dish across all 15 categories is pure vegetarian — no
+                compromise, ever.
+              </p>
+            </div>
+          </div>
+
+          <div class="customize-reason">
+            <div class="customize-reason__icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.8"
+                aria-hidden="true"
+              >
+                <circle cx="12" cy="12" r="10" />
+                <polyline points="12,6 12,12 16,14" />
+              </svg>
+            </div>
+            <div>
+              <h4>Quick &amp; Easy</h4>
+              <p>
+                Takes under 3 minutes. Pick your dishes, fill your event
+                details, and you're done.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <a
+          href="customize-menu.html"
+          class="btn btn--primary customize-promo__cta"
+        >
+          <svg
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            aria-hidden="true"
+          >
+            <path
+              d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"
+            />
+            <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
+          </svg>
+          Customize Your Menu Now
+          <svg
+            width="14"
+            height="14"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.5"
+            aria-hidden="true"
+          >
+            <polyline points="9,18 15,12 9,6" />
+          </svg>
+        </a>
+      </div>
+    </section>
+
+    <!-- ======================================================
+       FEATURED MENU
+  ====================================================== -->
+    <section class="featured-menu section" aria-labelledby="menu-heading">
+      <div class="featured-menu__header">
+        <div>
+          <div class="section-label">Culinary Highlights</div>
+          <h2 class="section-title section-title--white" id="menu-heading">
+            A Taste of Our Menu
+          </h2>
+          <p class="section-subtitle section-subtitle--white">
+            An artful selection from our extensive repertoire of vegetarian
+            delicacies.
+          </p>
+        </div>
+        <a
+          href="menu.html"
+          class="btn btn--outline-light"
+          style="flex-shrink: 0"
+          >View Complete Menu</a
+        >
+      </div>
+
+      <div class="highlight-slider">
+        <button class="slider-btn prev">&#10094;</button>
+
+        <div class="highlight-track">
+          <div class="highlight-card">
+            <img src="Images/Paneer Dishes.png" alt="Paneer Butter Masala" />
+            <h3>Paneer Butter Masala</h3>
+            <p>Rich creamy tomato gravy – Wedding favorite.</p>
+          </div>
+
+          <div class="highlight-card">
+            <img src="Images/Types of Roti.png" alt="Butter Roti" />
+            <h3>Butter Roti</h3>
+            <p>Soft freshly made roti served hot with every meal .</p>
+          </div>
+
+          <div class="highlight-card">
+            <img src="Images/Rice.png" alt="Masala Rice" />
+            <h3>Masala Rice</h3>
+            <p>
+              Traditional spiced rice cooked with fresh vegetables and masalas.>
+            </p>
+          </div>
+        </div>
+
+        <button class="slider-btn next">&#10095;</button>
+      </div>
+
+      <div class="featured-menu__cta">
+        <a href="menu.html" class="btn btn--primary">Explore Complete Menu</a>
+      </div>
+    </section>
+
+    <!-- ======================================================
+       TESTIMONIALS
+  ====================================================== -->
+    <section
+      class="testimonials section"
+      aria-labelledby="testimonials-heading"
+    >
+      <div class="testimonials__header">
+        <div class="section-label">Guest Reviews</div>
+        <h2 class="section-title" id="testimonials-heading">
+          Words from Our Guests
+        </h2>
+      </div>
+
+      <div class="testimonials__grid">
+        <article class="testimonial-card">
+          <div class="testimonial-card__quote" aria-hidden="true">"</div>
+          <div class="testimonial-card__stars" aria-label="5 out of 5 stars">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+              />
+            </svg>
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+              />
+            </svg>
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+              />
+            </svg>
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+              />
+            </svg>
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+              />
+            </svg>
+          </div>
+          <p>
+           Maitree Foods made my brother’s wedding truly special. The entire catering experience was handled with great professionalism and attention to detail. The food was delicious and beautifully prepared, and our guests kept appreciating the taste and quality throughout the event. With nearly 700 guests attending, the service was smooth and well managed. Our family was extremely happy with Maitree Foods and grateful for making such an important occasion memorable.
+          </p>
+          <div class="testimonial-card__author">
+            <strong>Sharad Bansode</strong>
+            <span>Wedding Ceremony — 700 Guests</span>
+          </div>
+        </article>
+
+        <article class="testimonial-card">
+          <div class="testimonial-card__quote" aria-hidden="true">"</div>
+          <div class="testimonial-card__stars" aria-label="5 out of 5 stars">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+              />
+            </svg>
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+              />
+            </svg>
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+              />
+            </svg>
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+              />
+            </svg>
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+              />
+            </svg>
+          </div>
+          <p>
+            We hired Maitree Foods for our Diwali celebration at the HDFC Bank Data Centre, and the experience was excellent. The team managed the catering smoothly and ensured everything was well organized. The food quality was outstanding and all our colleagues truly enjoyed the festive menu. Maitree Foods handled the event professionally and made the celebration memorable for everyone.
+          </p>
+          <div class="testimonial-card__author">
+            <strong>Ravi Nirukhe</strong>
+            <span>Diwali Celebration - HDFC Bank Data Centre - 120 Guests</span>
+          </div>
+        </article>
+
+        <article class="testimonial-card">
+          <div class="testimonial-card__quote" aria-hidden="true">"</div>
+          <div class="testimonial-card__stars" aria-label="5 out of 5 stars">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+              />
+            </svg>
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+              />
+            </svg>
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+              />
+            </svg>
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+              />
+            </svg>
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+              />
+            </svg>
+          </div>
+          <p>
+            We chose Maitree Foods for our house warming ceremony, and the experience was wonderful. The food was prepared with great care and tasted absolutely delicious. Our guests truly enjoyed the meal, and everything was served smoothly and on time. The team managed the event very professionally, making our special day even more memorable.
+          </p>
+          <div class="testimonial-card__author">
+            <strong>Sharad Horuskar</strong>
+            <span>Religious Function — 180 Guests</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ======================================================
+       CONTACT PREVIEW
+  ====================================================== -->
+    <section class="contact-preview section" aria-labelledby="contact-heading">
+      <div>
+        <div class="section-label">Get in Touch</div>
+        <h2 class="section-title" id="contact-heading">
+          Let's Plan Your<br />Perfect Event
+        </h2>
+        <p class="section-subtitle">
+          Reach out to discuss your requirements. We would love to craft a menu
+          that makes your celebration truly unforgettable.
+        </p>
+
+        <div class="contact-info__items">
+          <div class="contact-info__item">
+            <div class="contact-info__item-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                aria-hidden="true"
+              >
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 11.5a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.62 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.5a16 16 0 0 0 6 6l.96-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.5 16z"
+                />
+              </svg>
+            </div>
+            <div class="contact-info__item-text">
+              <strong>Phone</strong>
+              <a href="tel:9922925739">9922925739</a>
+            </div>
+          </div>
+          <div class="contact-info__item">
+            <div class="contact-info__item-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                aria-hidden="true"
+              >
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+            </div>
+            <div class="contact-info__item-text">
+              <strong>Location</strong>
+              <span>Tingrenagar, Pune, Maharashtra</span>
+            </div>
+          </div>
+          <div class="contact-info__item">
+            <div class="contact-info__item-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+              </svg>
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+              </svg>
+            </div>
+            <div class="contact-info__item-text">
+              <strong>Facebook</strong>
+              <a
+                href="https://www.facebook.com/share/1GCCyhc4Wt/"
+                target="_blank"
+                rel="noopener"
+                >Maitree Foods on Facebook</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-buttons">
+          <a
+            href="https://wa.me/919922925739"
+            class="btn btn--whatsapp"
+            target="_blank"
+            rel="noopener"
+          >
+            <svg
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              aria-hidden="true"
+            >
+              <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"
+              />
+            </svg>
+            WhatsApp
+          </a>
+          <a href="contact.html" class="btn btn--maroon">
+            Send Enquiry
+            <svg
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              aria-hidden="true"
+            >
+              <polyline points="9,18 15,12 9,6" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================
+       FOOTER
+  ====================================================== -->
+    <footer class="site-footer" aria-label="Site footer">
+      <div class="site-footer__grid">
+        <div>
+          <div class="footer-logo__name">Maitree Foods</div>
+          <span class="footer-logo__sub">Pure Vegetarian Catering</span>
+          <p class="footer-desc">
+            Bringing the warmth of homemade flavors to grand celebrations since
+            over a decade. Serving Pune with dedication, hygiene, and culinary
+            artistry.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="menu.html">Full Menu</a></li>
+            <li><a href="customize-menu.html">Customize Menu</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="contact.html">Wedding Catering</a></li>
+            <li><a href="contact.html">Corporate Events</a></li>
+            <li><a href="contact.html">Religious Functions</a></li>
+            <li><a href="contact.html">Social Gatherings</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <p>Tingrenagar, Pune<br />Maharashtra, India</p>
+          <p style="margin-top: 0.8rem">
+            <a href="tel:9922925739" class="footer-contact-link">9922925739</a>
+          </p>
+          <p style="margin-top: 0.4rem">Sachin Sonawane</p>
+          <p style="margin-top: 0.8rem">
+            <a
+              href="https://www.facebook.com/share/1GCCyhc4Wt/"
+              class="footer-contact-link"
+              target="_blank"
+              rel="noopener"
+              >Maitree Foods on Facebook</a
+            >
+          </p>
+        </div>
+      </div>
+      <div class="site-footer__bottom">
+        <span
+          >Copyright &copy; 2024 <span>Maitree Foods</span>. All rights
+          reserved.</span
+        >
+        <span style="color: rgba(255, 255, 255, 0.35)"
+          >100% Pure Vegetarian Catering, Pune</span
+        >
+      </div>
+    </footer>
+
+    <!-- WhatsApp Float -->
+    <a
+      href="https://wa.me/919922925739"
+      class="whatsapp-float"
+      target="_blank"
+      rel="noopener"
+      aria-label="Chat on WhatsApp"
+    >
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path
+          d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"
+        />
+      </svg>
+    </a>
+
+    <script src="main.js"></script>
+  </body>
+</html>
