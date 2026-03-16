@@ -12,6 +12,21 @@
   ---------------------------------------------------------- */
   var MENU_DATA = [
     {
+      id: 'drinks',
+      name: 'Welcome Drinks',
+      items: [
+        'Blue Lagoon', 'Fruit Punch', 'Rose & Litchi', 'Khus & Lemon',
+        'Mojito', 'Kokam', 'Jaljeera', 'Blossoms', 'Iced Tea', 'Iced Coffee'
+      ]
+    },
+    {
+      id: 'Hot drinks',
+      name: 'Hot Drinks',
+      items: [
+        'Tea', 'Coffee', 'Hot Milk/Bournvita'
+      ]
+    },
+    {
       id: 'snacks',
       name: 'Starters',
       items: [
@@ -29,14 +44,6 @@
         'Paneer Tikka', 'Tandoori Aloo Gobhi', 'Veg Seekh Kebab', 'Paneer Achari Kebab',
         'Paneer Kasturi Kebab', 'Paneer Malai Kebab', 'Paneer Reshami Kebab', 'Paneer Achari',
         'Mushroom Tikka', 'Paneer Sholey Kebab', 'Paneer Banjara', 'Paneer Pahadi'
-      ]
-    },
-    {
-      id: 'breakfast',
-      name: 'Breakfast Items',
-      items: [
-        'Idli Sambar', 'Poha', 'Upma / Masala Upma', 'Medu Vada Sambar',
-        'Sabudana Khichadi', 'Misal Pav', 'Dosa', 'Uttapam', 'Pav Bhaji'
       ]
     },
     {
@@ -71,11 +78,11 @@
       ]
     },
     {
-      id: 'roti',
-      name: 'Types of Roti',
+      id: 'dal',
+      name: 'Types of Dal',
       items: [
-        'Chapati / Phulke', 'Puri', 'Paratha', 'Lachha Paratha', 'Masala Puri',
-        'Tandoori Roti', 'Rumali Roti', 'Bhatura', 'Palak Puri', 'Methi Thepla'
+        'Dal Fry', 'Dal Tadka', 'Dal Makhani', 'Dal Bukhara', 'Dal Palak',
+        'Dal Methi', 'Dal Khurchan', 'Dhaba Dal', 'Kadhi', 'Kadhi Pakoda'
       ]
     },
     {
@@ -87,11 +94,11 @@
       ]
     },
     {
-      id: 'dal',
-      name: 'Types of Dal',
+      id: 'roti',
+      name: 'Types of Roti',
       items: [
-        'Dal Fry', 'Dal Tadka', 'Dal Makhani', 'Dal Bukhara', 'Dal Palak',
-        'Dal Methi', 'Dal Khurchan', 'Dhaba Dal', 'Kadhi', 'Kadhi Pakoda'
+        'Chapati / Phulke', 'Puri', 'Paratha', 'Lachha Paratha', 'Masala Puri',
+        'Tandoori Roti', 'Rumali Roti', 'Bhatura', 'Palak Puri', 'Methi Thepla'
       ]
     },
     {
@@ -100,14 +107,6 @@
       items: [
         'Gulab Jamun', 'Rasgulla', 'Pineapple Sheera', 'Basundi', 'Sitafal Rabadi',
         'Angoori Rabadi', 'Moong Dal Halwa', 'Jalebi', 'Ice Cream', 'Kheer', 'Motichur Ladoo'
-      ]
-    },
-    {
-      id: 'drinks',
-      name: 'Welcome Drinks',
-      items: [
-        'Blue Lagoon', 'Fruit Punch', 'Rose & Litchi', 'Khus & Lemon',
-        'Mojito', 'Kokam', 'Jaljeera', 'Blossoms', 'Iced Tea', 'Iced Coffee'
       ]
     },
     {
@@ -135,6 +134,14 @@
       id: 'chaat',
       name: 'Chaat',
       items: ['Pani Puri', 'SPDP', 'Bhel']
+    },
+    {
+      id: 'breakfast',
+      name: 'Breakfast Items',
+      items: [
+        'Idli Sambar', 'Poha', 'Upma / Masala Upma', 'Medu Vada Sambar',
+        'Sabudana Khichadi', 'Misal Pav', 'Dosa', 'Uttapam', 'Pav Bhaji'
+      ]
     }
   ];
 
